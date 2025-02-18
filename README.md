@@ -28,6 +28,7 @@ The following packages will be automatically installed:
 
 1. Clone the repository:
     git clone https://github.com/anthonyznova/ProvusFormatter.git
+
     cd provus-formatter
 
 2. Install in development mode:
