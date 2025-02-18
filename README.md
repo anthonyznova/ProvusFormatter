@@ -38,8 +38,10 @@ The following packages will be automatically installed:
 
 ### Launch the Application
 
-After installation, run the formatter using:
+If you installed from source, run the formatter using:
     provus-formatter
+
+Otherwise doubleclick the .exe
 
 ### Basic Workflow
 
@@ -50,29 +52,13 @@ After installation, run the formatter using:
 2. **Review waveform and sampling**
    - Review detected parameters in the analysis table
    - Modify waveform and sampling scheme assignments if needed
-   - Preview and edit waveform shapes
+   - Preview and edit waveform shapes by double clicking anywhere in row
    - Select appropriate data styles for each file
 
 3. **File Generation**
    - Click "Update Headers" to write waveform and sampling information to data files
    - Click "Update Project File" to create/update the Provus project file
 
-
-## File Formats
-
-### Waveform Files
-CSV format containing:
-- Waveform name
-- Base frequency
-- Zero time
-- Time-current pairs defining the waveform shape
-
-### Channel Sampling Files
-CSV format containing:
-- Sampling scheme name
-- Primary time gate
-- Field type (B-field or dB/dt)
-- Channel definitions (start time, end time, color coding)
 
 ## License
 
