@@ -56,21 +56,6 @@ After installation, run the formatter using:
    - Click "Update Headers" to write waveform and sampling information to data files
    - Click "Update Project File" to create/update the Provus project file
 
-### Output Structure
-
-The tool creates the following directory structure in your root directory:
-
-root_directory/
-├── Provus_Options/
-│   ├── Waveforms/
-│   │   ├── Square_5.200.csv
-│   │   ├── UTEM_3.872.csv
-│   │   └── ...
-│   └── Channel_Sampling_Schemes/
-│       ├── Square_5.200_14ch.csv
-│       ├── UTEM_3.872_13ch.csv
-│       └── ...
-└── project.ppf
 
 ## File Formats
 
